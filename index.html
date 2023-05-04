@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <input class="inputElm" id="clearElm" type="text"><br>
+    <div class="row"><button class="button clr"  onclick="window.clear()">Clear</button><button class="button" onclick="divid()">/</button></div>
+    <div class="row"><button class="button" onclick="eight()">8</button><button class="button" onclick="nine()">9</button><button class="button" onclick="facto()">!</button><button class="button" onclick="multiply()">*</button></div>
+    <div class="row"><button class="button" onclick="five()">5</button><button class="button" onclick="six()">6</button><button class="button" onclick="seven()">7</button><button class="button" onclick="sub()">-</button></div>
+    <div class="row"><button class="button" onclick="two()">2</button><button class="button" onclick="three() ">3</button><button class="button" onclick="four()">4</button><button class="button" onclick="add()">+</button></div>
+    <div class="row"><button class="button" onclick="dot()">.</button><button class="button" onclick="zero()">0</button><button class="button" onclick="one()">1</button><button class="button" onclick="equal()">=</button></div>
+    </div>
+</body>
+</html>
